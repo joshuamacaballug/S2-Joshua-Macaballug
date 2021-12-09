@@ -1,4 +1,3 @@
-# S2-Joshua-Macaballug
 // S2_JoshuaMacaballug.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
@@ -29,6 +28,15 @@ int main()
 			cout << "y x " << x << "\n";
 		}
 	}
-
+	cout << "\nPlease enter a valid number again:";
+	int f;
+	cin >> f;
+	cout << "\nPower from 1-10 for " << f << " is: \n" << endl;
+	int p = 1;
+	do {
+		cout << f << " powered to " << p << " = " << pow(f, p) << endl;
+		p++;
+	} while (p <= 10);
 }
+
 
